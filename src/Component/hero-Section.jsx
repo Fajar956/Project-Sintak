@@ -14,16 +14,16 @@ function HeroSection() {
           {/* Background Image Container */}
           <div className="absolute inset-0">
             <img
-              src="./mawarmerah.webp"
+              src="./bungapelangi.jpg"
               alt="hamparan bunga"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0  bg-opacity-40" />
+            <div className="absolute inset-0 bg-black/70 backdrop-blur-none" />
           </div>
 
           {/* Content Container */}
           <div className="relative container mx-auto px-4 h-full flex items-center">
-            <div className="max-w-2xl text-gray-200">
+            <div className="max-w-2xl text-white">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Six Petals
               </h1>
@@ -35,13 +35,13 @@ function HeroSection() {
               {/* Buttons Container */}
               <div className="flex flex-wrap gap-4">
                 <a
-                  href='/'
+                  href="/"
                   className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-md font-medium transition-colors"
                 >
                   Lihat Produk Kami
                 </a>
                 <a
-                  href='/'
+                  href="/"
                   className="bg-white hover:bg-gray-400 text-pink-600 px-6 py-2 rounded-md font-medium transition-colors"
                 >
                   Hubungi Kami
