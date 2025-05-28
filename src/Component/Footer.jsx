@@ -119,7 +119,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
-                <span>info@SixPitals.com</span>
+                <span>info@SixPetals.com</span>
               </li>
             </ul>
           </div>
