@@ -16,27 +16,27 @@ function Navbar() {
         {/* Desktop nav */}
         <ul className="hidden md:flex gap-6">
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Product
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Review
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Contact
             </a>
           </li>
@@ -44,13 +44,13 @@ function Navbar() {
 
         {/* Icon group */}
         <div className="flex items-center gap-3">
-          <a href="#">
+          <a href="/">
             <Heart />
           </a>
-          <a href="#">
+          <a href="/">
             <ShoppingCart />
           </a>
-          <a href="#">
+          <a href="/">
             <User />
           </a>
 
@@ -69,27 +69,27 @@ function Navbar() {
       {isMenuOpen && (
         <ul className="md:hidden flex flex-col items-center gap-4 py-4 bg-pink-50 border-t border-gray-300">
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Product
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Review
             </a>
           </li>
           <li>
-            <a href="#" className="hover:text-pink-400">
+            <a href="/" className="hover:text-pink-400">
               Contact
             </a>
           </li>
