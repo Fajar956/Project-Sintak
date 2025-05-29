@@ -5,7 +5,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 border bg-pink-50 border-gray-300 shadow-lg z-50">
+    <header className="sticky top-0 border bg-white/65 border-gray-300 shadow-lg z-50">
       <div className="flex max-w-7xl mx-auto justify-between h-16 items-center px-4">
         {/* Logo */}
         <div className="flex items-center gap-2">
@@ -21,22 +21,22 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="About" className="hover:text-pink-400">
               About
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="Product" className="hover:text-pink-400">
               Product
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="Review" className="hover:text-pink-400">
               Review
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="Contact" className="hover:text-pink-400">
               Contact
             </a>
           </li>
@@ -74,22 +74,22 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="About" className="hover:text-pink-400">
               About
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="Product" className="hover:text-pink-400">
               Product
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="Review" className="hover:text-pink-400">
               Review
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-pink-400">
+            <a href="Contact" className="hover:text-pink-400">
               Contact
             </a>
           </li>

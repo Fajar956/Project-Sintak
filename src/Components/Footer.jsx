@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Instagram,
-  Facebook,
-  Twitter,
-  Mail,
-  Phone,
-  MapPin,
-  Flower2,
-} from "lucide-react";
+import {Instagram, Facebook, Youtube, Mail, Phone, MapPin, Flower2} from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-200">
@@ -21,22 +13,22 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="/"
+                href="https://instagram.com"
                 className="text-gray-300 hover:text-pink-400 transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="/"
+                href="https://facebook.com"
                 className="text-gray-300 hover:text-pink-400 transition-colors"
               >
                 <Facebook size={20} />
               </a>
               <a
-                href="/"
+                href="https://youtube.com"
                 className="text-gray-300 hover:text-pink-400 transition-colors"
               >
-                <Twitter size={20} />
+                <Youtube size={20} />
               </a>
             </div>
           </div>
@@ -52,7 +44,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/about"
+                  href="about"
                   className="hover:text-pink-400 transition-colors"
                 >
                   Tentang Kami
@@ -60,7 +52,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/product"
+                  href="product"
                   className="hover:text-pink-400 transition-colors"
                 >
                   Produk
@@ -68,7 +60,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/contact"
+                  href="contact"
                   className="hover:text-pink-400 transition-colors"
                 >
                   Kontak
@@ -80,27 +72,27 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white mb-4">Layanan</h4>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="hover:text-pink-400 transition-colors">
+                <a href="Product" className="hover:text-pink-400 transition-colors">
                   Rangkaian Bunga
                 </a>
               </li>
               <li>
-                <a href="/" className="hover:text-pink-400 transition-colors">
+                <a href="Product" className="hover:text-pink-400 transition-colors">
                   Buket Bunga
                 </a>
               </li>
               <li>
-                <a href="/" className="hover:text-pink-400 transition-colors">
+                <a href="Product" className="hover:text-pink-400 transition-colors">
                   Dekorasi Acara
                 </a>
               </li>
               <li>
-                <a href="/" className="hover:text-pink-400 transition-colors">
+                <a href="Product" className="hover:text-pink-400 transition-colors">
                   Bunga untuk Pernikahan
                 </a>
               </li>
               <li>
-                <a href="/" className="hover:text-pink-400 transition-colors">
+                <a href="Product" className="hover:text-pink-400 transition-colors">
                   Kustomisasi
                 </a>
               </li>
@@ -126,7 +118,8 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
           <p className="flex items-center justify-center gap-2">
-            <Flower2 className="w-4 h-4"/>{new Date().getFullYear()} SixPetals.com
+            <Flower2 className="w-4 h-4" />
+            {new Date().getFullYear()} SixPetals.com
           </p>
         </div>
       </div>

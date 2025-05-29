@@ -11,8 +11,8 @@ const Berlanggan= () => {
             Berlangganan newsletter kami untuk mendapatkan inspirasi rangkaian
             bunga dan penawaran menarik setiap bulannya.
           </p>
-          <h1 className="flex flex-col sm:flex-row gap-4 justify-center">
-            <input type="email" placeholder="Masukkan email Anda" className="bg-white px-4 py-2 rounded-md text-gray-900 flex-grow max-w-md focus:outline-none focus:ring-2 focus:ring-white" />
+          <h1 className="flex flex-col md:flex-row gap-4 justify-center">
+           <input type="email" placeholder="Masukkan email Anda" className="bg-white px-4 py-2 rounded-md text-gray-900 flex-grow max-w-md focus:outline-none focus:ring-2 focus:ring-white" />
             <button type="submit" className="bg-white  hover:text-pink-400 text-pink-500 px-6 py-2 rounded-md font-medium inline-flex items-center justify-center gap-2 hover:bg-pink-50 transition-colors">
               <SendIcon size={18} />
               Berlangganan

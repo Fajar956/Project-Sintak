@@ -4,17 +4,17 @@ const ProductUnggulan = () => {
   const datakonten = [
     {
       name: "Buket Bunga",
-      image: "/buketmawarmerah.webp",
+      image: "/buketbunga.jpg",
       description: "Buket cantik untuk hadiah spesial.",
     },
     {
       name: "Rangkaian Meja",
-      image: "/mawarmerah.webp",
+      image: "/rangkaianmeja.jpeg",
       description: "Hiasan meja elegan untuk acara formal.",
     },
     {
       name: "Dekorasi Pernikahan",
-      image: "/bungapelangi.jpg",
+      image: "/dekorasipernikahan.webp",
       description: "Dekorasi romantis untuk hari istimewa.",
     },
   ];
@@ -44,13 +44,18 @@ const ProductUnggulan = () => {
                 </div>
               </div>
               <div className="p-4">
-                <p className="text-sm text-gray-600 mb-3">{item.description}</p>
-                <button className="px-4 py-2 text-sm bg-pink-600 text-white rounded-lg hover:bg-pink-700 transition">
-                  Lihat Detail
-                </button>
+                <p className="text-gray-600">{item.description}</p>
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-8">
+          <a
+            href="/Product"
+            className="inline-block bg-pink-100 text-pink-700 hover:bg-pink-200 px-6 py-2 rounded-md font-medium transition-colors"
+          >
+            Lihat Semua Produk
+          </a>
         </div>
       </div>
     </section>
