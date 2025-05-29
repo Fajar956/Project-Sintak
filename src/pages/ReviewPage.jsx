@@ -9,37 +9,72 @@ function ReviewPage() {
       <div className="flex-grow py-8">
         <div>
           <h1 className="font-bold text-5xl py-7 text-center">
-            Review dari Custemer
+            Ulasan Dari Pelanggan
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
             {[
               {
-                name: "Muthia Maylafayza inayah",
+                name: "Inayah",
                 review:
-                  "Acara Sintax sangat bermanfaat dan menambah wawasan saya tentang teknologi terbaru.",
+                  "Rangkaian bunganya cantik banget dan sesuai dengan yang saya pesan! Pelayanannya juga ramah dan pengirimannya cepat. Bener-bener bikin ulang tahun sahabat saya jadi lebih berkesan. Terima kasih.",
                 rating: 5,
-                image: "/images/muthia.jpg",
+                image: "/",
               },
               {
-                name: "Fajar Setyanusa",
+                name: "Setya",
                 review:
-                  "Pembicaranya inspiratif dan materinya mudah dipahami. Sangat direkomendasikan!",
+                  "Saya pesan bunga duka cita untuk rekan kerja, dan hasilnya sangat elegan dan sopan. Bunganya segar, dan pengirimannya tepat waktu. Recommended banget!",
                 rating: 5,
-                image: "/fajarfoto.png",
+                image: "/fajars.jpg",
               },
               {
-                name: "Aduth Kurniawan",
+                name: "fayza",
                 review:
-                  "Saya mendapatkan banyak relasi baru dan pengalaman berharga di Sintax.",
+                  "Saya suka sekali dengan detail rangkaiannya. Terlihat dibuat dengan sepenuh hati. Adminnya juga sabar dan sangat membantu saat saya bingung memilih jenis bunga.",
                 rating: 5,
-                image: "/images/fajar2.jpg",
+                image: "/",
               },
               {
-                name: "Andre Sotemeru",
+                name: "Meru",
                 review:
-                  "Acara berjalan lancar dan menyenangkan. Terima kasih Sintax!",
+                  "Tiap kali butuh bunga untuk acara keluarga, pasti pesan di sini. Kualitasnya nggak pernah mengecewakan, dan selalu bikin acara jadi lebih spesial",
                 rating: 5,
-                image: "/images/budi.jpg",
+                image: "/andre2.jpg",
+              },
+              {
+                name: "Kurniawan",
+                review:
+                  "Pernah pesan dadakan, dan mereka tetap bisa layani dengan cepat tanpa mengorbankan kualitas. Pelayanan super dan hasil rangkaiannya luar biasa!",
+                rating: 5,
+                image: "/",
+              },
+              {
+                name: "Adan",
+                review:
+                  "Saya pesan bunga untuk acara lamaran, dan hasilnya benar-benar memukau! Warnanya lembut, bunganya segar, dan penataannya elegan. Semua tamu memuji! Terima kasih sudah bikin hari bahagia saya makin sempurna.",
+                rating: 5,
+                image: "/fajar.jpg",
+              },
+              {
+                name: "Mayla",
+                review:
+                  "Sudah beberapa kali order dan selalu puas! Entah untuk ibu, pasangan, atau teman, hasil rangkaiannya selalu cocok dengan momen. Timnya sangat komunikatif juga. Top banget!",
+                rating: 5,
+                image: "/",
+              },
+              {
+                name: "Agus",
+                review:
+                  "Saya suka karena bunganya nggak cuma indah, tapi juga punya makna. Waktu saya bilang mau kirim untuk minta maaf, mereka bantu pilihkan yang paling cocok. Servisnya personal sekali!",
+                rating: 5,
+                image: "/andre1.jpg",
+              },
+              {
+                name: "Asep",
+                review:
+                  "Website-nya mudah digunakan, pengiriman cepat, dan hasil rangkaiannya bahkan lebih bagus dari foto. Pokoknya nggak nyesel order di sini. Pasti akan repeat order!",
+                rating: 5,
+                image: "/",
               },
             ].map((item, idx) => (
               <div
@@ -50,7 +85,7 @@ function ReviewPage() {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-10 h-10 rounded-full object-cover"
+                    className="w-10 h-10 rounded-full object-cover "
                   />
                   <span className="font-semibold text-lg">{item.name}</span>
                   <span className="ml-auto flex">

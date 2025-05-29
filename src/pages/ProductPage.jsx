@@ -16,7 +16,6 @@ const ProductPage = () => {
     { id: "all", name: "Semua" },
     { id: "bouquet", name: "Buket" },
     { id: "arrangement", name: "Rangkaian" },
-    { id: "wedding", name: "Pernikahan" },
     { id: "decoration", name: "Dekorasi" },
   ];
 
@@ -25,26 +24,63 @@ const ProductPage = () => {
       id: 1,
       name: "Buket Mawar Merah",
       price: 150000,
-      image: "/images/buket-mawar.jpg",
+      image: "/buketmawarmerah.webp",
       category: "bouquet",
-      isPopular: true,
+      isBestSeller: true,
     },
     {
       id: 2,
-      name: "Dekorasi Pelaminan",
-      price: 1200000,
-      image: "/images/dekorasi-pelaminan.jpg",
-      category: "decoration",
+      name: "Buket Bunga Segar",
+      price: 120000,
+      image: "/buket.webp", 
+      category: "bouquet"
     },
     {
       id: 3,
-      name: "Rangkaian Lily",
-      price: 180000,
-      image: "/images/lily.jpg",
-      category: "arrangement",
-      isPopular: true,
+      name: "Buket Bunga Kering",
+      price: 100000,
+      image: "/buketbungakering.jpg",
+      category: "bouquet"
     },
-    // Tambahkan produk lainnya sesuai kebutuhan
+    {
+      id: 4,
+      name: "Buket Mawar Campur",
+      price: 135000,
+      image: "/buketmawarcampur.jpg",
+      category: "bouquet",
+      isBestSeller: true,
+    },
+    {
+      id: 5,
+      name: "Rangkaian Lily Elegan",
+      price: 180000,
+      image: "/rangkain.jpg",
+      category: "arrangement"
+    },
+    {
+      id: 6,
+      name: "Rangkaian Bunga Meja",
+      price: 165000,
+      image: "/rangkaianmeja.jpeg",
+      category: "arrangement",
+      isBestSeller: true
+    },
+    {
+      id: 7,
+      name: "Dekorasi Wedding",
+      price: 5000000,
+      image: "/wedding.jpg",
+      category: "decoration",
+      isBestSeller: true
+    },
+    {
+      id: 8,
+      name: "Dekorasi Pernikahan Premium",
+      price: 8000000,
+      image: "/dekorasipernikahan.webp",
+      category: "decoration",
+      isBestSeller: true
+    }
   ];
 
   const filteredProducts = products.filter((product) => {
@@ -57,15 +93,15 @@ const ProductPage = () => {
 
   const ProductCard = ({ product }) => (
     <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-      <div className="relative">
+      <div className=" bg-white rounded-lg shadow overflow-hidden group relative">
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-64 object-cover"
+          className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
         />
-        {product.isPopular && (
+        {product.isBestSeller && (
           <span className="absolute top-2 right-2 bg-pink-500 text-white text-xs font-bold px-2 py-1 rounded">
-            Populer
+            Best Seller
           </span>
         )}
       </div>
@@ -92,7 +128,7 @@ const ProductPage = () => {
       <Navbar />
 
       <main className="flex-grow container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-center mb-8">Katalog Produk</h1>
+        <h1 className="text-4xl font-bold text-center mb-8">Temukan Bunga Favoritmu</h1>
 
         {/* Search and Filter */}
         <div className="flex flex-col md:flex-row gap-4 mb-8">
@@ -100,7 +136,7 @@ const ProductPage = () => {
             <input
               type="text"
               placeholder="Cari bunga..."
-              className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
+              className="w-full px-4 py-2 pl-10 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -128,7 +164,7 @@ const ProductPage = () => {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

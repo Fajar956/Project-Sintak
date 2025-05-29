@@ -44,13 +44,13 @@ function Navbar() {
 
         {/* Icon group */}
         <div className="flex items-center gap-3">
-          <a href="/">
+          <a href="/" className="hover:text-pink-400">
             <Heart />
           </a>
-          <a href="/">
+          <a href="/" className="hover:text-pink-400">
             <ShoppingCart />
           </a>
-          <a href="/">
+          <a href="/" className="hover:text-pink-400">
             <User />
           </a>
 

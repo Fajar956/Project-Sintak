@@ -1,12 +1,12 @@
 import React from "react";
-import {Instagram, Facebook, Youtube, Mail, Phone, MapPin, Flower2} from "lucide-react";
+import {Instagram, Facebook, Youtube, Mail, Phone, MapPin, Flower2, X} from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-200">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Six Petals </h3>
+            <h1 className="text-xl font-bold text-white mb-4">Six Petals </h1>
             <p className="mb-4">
               Menyediakan bunga segar dan rangkaian indah untuk segala acara
               spesial Anda.
@@ -33,9 +33,9 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">
+            <h1 className="text-lg font-semibold text-white mb-4">
               Tautan Cepat
-            </h4>
+            </h1>
             <ul className="space-y-2">
               <li>
                 <a href="/" className="hover:text-pink-400 transition-colors">
@@ -83,17 +83,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="Product" className="hover:text-pink-400 transition-colors">
-                  Dekorasi Acara
-                </a>
-              </li>
-              <li>
-                <a href="Product" className="hover:text-pink-400 transition-colors">
-                  Bunga untuk Pernikahan
-                </a>
-              </li>
-              <li>
-                <a href="Product" className="hover:text-pink-400 transition-colors">
-                  Kustomisasi
+                  Dekorasi Pernikahan
                 </a>
               </li>
             </ul>

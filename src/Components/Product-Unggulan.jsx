@@ -8,7 +8,7 @@ const ProductUnggulan = () => {
       description: "Buket cantik untuk hadiah spesial.",
     },
     {
-      name: "Rangkaian Meja",
+      name: "Rangkaian Bunga Meja",
       image: "/rangkaianmeja.jpeg",
       description: "Hiasan meja elegan untuk acara formal.",
     },
