@@ -3,8 +3,8 @@ import Navbar from "../Components/navbar";
 import StatSection from "../Components/Stat-Section";
 import Berlanggan from "../Components/Berlanggan";
 import Footer from "../Components/Footer";
-import HeroSection from "../Components/hero-Section";
 import ProductUnggulan from "../Components/Product-Unggulan.Jsx";
+import HeroSection from "../Components/Hero-Section";
 
 
 function HomePage() {
