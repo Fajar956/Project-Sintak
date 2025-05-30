@@ -14,11 +14,11 @@ function ReviewPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
             {[
               {
-                name: "Salma",
+                name: "Inayah",
                 review:
                   "Rangkaian bunganya cantik banget dan sesuai dengan yang saya pesan! Pelayanannya juga ramah dan pengirimannya cepat. Bener-bener bikin ulang tahun sahabat saya jadi lebih berkesan. Terima kasih.",
                 rating: 5,
-                image: "/mumut.jpg",
+                image: "/",
               },
               {
                 name: "Setya",
@@ -28,11 +28,11 @@ function ReviewPage() {
                 image: "/fajars.jpg",
               },
               {
-                name: "Mayo",
+                name: "fayza",
                 review:
                   "Saya suka sekali dengan detail rangkaiannya. Terlihat dibuat dengan sepenuh hati. Adminnya juga sabar dan sangat membantu saat saya bingung memilih jenis bunga.",
                 rating: 5,
-                image: "/ojan.jpg",
+                image: "/",
               },
               {
                 name: "Meru",
@@ -46,7 +46,7 @@ function ReviewPage() {
                 review:
                   "Pernah pesan dadakan, dan mereka tetap bisa layani dengan cepat tanpa mengorbankan kualitas. Pelayanan super dan hasil rangkaiannya luar biasa!",
                 rating: 5,
-                image: "/ucing.jpg",
+                image: "/",
               },
               {
                 name: "Adan",
@@ -60,7 +60,7 @@ function ReviewPage() {
                 review:
                   "Sudah beberapa kali order dan selalu puas! Entah untuk ibu, pasangan, atau teman, hasil rangkaiannya selalu cocok dengan momen. Timnya sangat komunikatif juga. Top banget!",
                 rating: 5,
-                image: "/ano.jpg",
+                image: "/",
               },
               {
                 name: "Agus",
@@ -70,11 +70,11 @@ function ReviewPage() {
                 image: "/andre1.jpg",
               },
               {
-                name: "Rafael Seblak",
+                name: "Asep",
                 review:
                   "Website-nya mudah digunakan, pengiriman cepat, dan hasil rangkaiannya bahkan lebih bagus dari foto. Pokoknya nggak nyesel order di sini. Pasti akan repeat order!",
                 rating: 5,
-                image: "/rafael.jpg",
+                image: "/",
               },
             ].map((item, idx) => (
               <div
