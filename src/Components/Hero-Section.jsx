@@ -36,13 +36,13 @@ function HeroSection() {
               <div className="flex flex-wrap gap-4">
                 <a
                   href="product"
-                  className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-md font-medium transition-colors"
+                  className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-md font-medium transition-colors"
                 >
                   Lihat Produk Kami
                 </a>
                 <a
                   href="Contact"
-                  className="bg-white hover:bg-gray-400 text-pink-600 px-6 py-2 rounded-md font-medium transition-colors"
+                  className="bg-white hover:bg-gray-400 text-pink-600 px-4 py-2 rounded-md font-medium transition-colors"
                 >
                   Hubungi Kami
                 </a>
