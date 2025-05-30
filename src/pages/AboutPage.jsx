@@ -82,7 +82,7 @@ function AboutPage() {
                 },
                 {
                   name: "Adith Kurniawan",
-                  image: "/aditlatarmerah.jpg",
+                  image: "/fotoadit.jpg",
                 },
                 {
                   name: "Muthia Maylafayza",
