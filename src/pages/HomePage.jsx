@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../Components/navbar";
-import StatSection from "../Components/Stat-Section";
-import Berlanggan from "../Components/Berlanggan";
-import Footer from "../Components/Footer";
-import ProductUnggulan from "../Components/Product-Unggulan.Jsx";
-import HeroSection from "../Components/Hero-Section";
+import Navbar from "../Components/navbar.jsx";
+import StatSection from "../Components/Stat-Section.jsx";
+import Berlanggan from "../Components/Berlanggan.jsx";
+import Footer from "../Components/Footer.jsx";
+import ProductUnggulan from "../Components/Product-Unggulan.jsx";
+import HeroSection from "../Components/Hero-Section.jsx";
 
 
 function HomePage() {
